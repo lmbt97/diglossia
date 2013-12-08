@@ -1,9 +1,9 @@
-$ dig lmbt97.com +nostats +nocomments +nocmd
+$ dig example.com +nostats +nocomments +nocmd
 # Look up DNS record for example.com
-# ;lmbt97.com.                    IN      A
-# lmbt97.com.             3259    IN      A       204.232.175.78
+# ;example.com.                    IN      A
+# example.com.             3259    IN      A       204.232.175.78
 
-dig www.lmbt97.com +nostats +nocomments +nocmd
-# ;www.lmbt97.com.               IN      A
-# www.lmbt97.com.        3592    IN      CNAME   lmbt97.github.io.
+$ dig www.example.com +nostats +nocomments +nocmd
+# ;www.example.com.               IN      A
+# www.example.com.        3592    IN      CNAME   lmbt97.github.io.
 # lmbt97.github.io.      43192   IN      A       204.232.175.78
